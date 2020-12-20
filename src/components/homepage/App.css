@@ -1,53 +1,41 @@
-.App {
-    font-family: 'Lato',
-    sans-serif;
-    text-align: center;
-    height: 100vh;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
+* {
+  font-family: 'Quicksand',
+  sans-serif;
+  font-weight: 400;
+  margin: 0;
+  box-sizing: border-box
 }
 
-.main-border {
-
+.homepage {
+  display: flex;
 }
 
-.fade-in {
-  animation: fadeIn 2s;
-  opacity: 1;
+.home-image {
+  width:33vw;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
+.left-homepage {
+  height:100vh;
+  display: flex;
+  flex-flow: column;
+  margin-left: 6em;
 }
 
-.tech-list {
-  list-style-position: inside;
-  text-align: initial;
+.right-homepage {
+  display: flex;
+  flex-flow: column;
+  margin: 6em;
 }
 
-#root {
-  width: 100vw;
-  background: linear-gradient(to top left, #009999 0%, #99ffcc 84%);
+.home-options {
+  margin:0.4em;
+  text-decoration: underline;
+  transition:0.3s;
 }
 
-.main-name {
-  margin:0;
-  padding-top: 15vh;
-}
-
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.home-options:hover {
+text-decoration: underline;
+text-decoration-color: gold;
+font-size:2.2em;
+transition:0.3s;
 }
