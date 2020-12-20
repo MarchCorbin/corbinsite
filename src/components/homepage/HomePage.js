@@ -16,15 +16,13 @@ const HomePage = () => {
           alt="main-shot"
         />
       </div>
-      <BrowserRouter>
       <div className="right-homepage">
-          <Link to="/contact">
+          <Link  to="/contact">
             <h1 className="home-options">Contact</h1>
           </Link>
           <h1 className="home-options">Experience</h1>
           <h1 className="home-options">Projects</h1>
       </div>
-      </BrowserRouter>
     </div>
   );
 }

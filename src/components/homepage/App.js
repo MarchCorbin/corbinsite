@@ -7,10 +7,7 @@ const App = () => {
   return (
   <BrowserRouter>
   <Route exact path='/contact' component={Contact} />
-  {/* <Route exact path="/mypath" component={withRouter(MyComponent)} /> */}
-  <Route exact path='/'>
-    <HomePage />
-  </Route>
+  <Route exact path='/' component={HomePage} />
   </BrowserRouter>
   )
 }
