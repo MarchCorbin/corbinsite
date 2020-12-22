@@ -23,10 +23,10 @@ const HomePage = () => {
         </div>
       </div>
       <div className="right-homepage">
-        <Link to="/contact">
+        <a href="/contact">
           <h1 className="home-options">Contact</h1>
-        </Link>
-        <h1 className="home-options">Experience</h1>
+        </a>
+        <a href="/experience"><h1 className="home-options">Experience</h1></a>
         <h1 className="home-options">Projects</h1>
       </div>
     </div>

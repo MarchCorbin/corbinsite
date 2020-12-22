@@ -3,6 +3,12 @@
   justify-content: space-evenly;
 }
 
-/* .header-options {
-  margin-left: 2em;
-} */
+.header-options:hover {
+  font-size:1.7em;
+  transition:0.5s;
+}
+
+.header-options {
+  font-size:1.5em;
+  transition:0.5s;
+}

@@ -1,0 +1,17 @@
+.experience-page {
+  display: flex;
+  flex-flow: column;
+  margin-top: 5em;
+  padding:1.5em;
+}
+
+.exp-list {
+  columns: 2;
+  width: fit-content;
+  margin-top: 2em;
+  font-size: 21px;
+}
+
+.exp-text {
+  margin-top: 2em;
+}

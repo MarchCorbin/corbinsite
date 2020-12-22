@@ -6,11 +6,12 @@ import {Link} from 'react-router-dom'
 const Header = () => {
   return (
     <>
-    <div className='header'>
-      <Link style={{textDecoration: 'none', color: 'black'}} to='/'><h1>Corbin March</h1></Link>
-      <h1 className='header-options'>Projects</h1>
-      <h1 className='header-options'>Experience</h1>
-    </div>
+    <nav className='header'>
+      <a style={{textDecoration: 'none', color: 'black'}} href='/'><h1 className='header-options'>Corbin March</h1></a>
+      <a style={{textDecoration: 'none', color: 'black'}} href='/projects'><h1 className='header-options'>Projects</h1></a>
+      <a style={{textDecoration: 'none', color: 'black'}} href='/experience'><h1 className='header-options'>Experience</h1></a>
+      <a style={{textDecoration: 'none', color: 'black'}} href='/contact'><h1 className='header-options'>Contact</h1></a>
+    </nav>
     </>
   )
 }
