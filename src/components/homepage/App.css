@@ -32,6 +32,7 @@
   text-decoration: underline;
   transition:0.3s;
   color:black;
+  cursor: pointer;
 }
 
 .home-options:hover {

@@ -1,0 +1,8 @@
+.header {
+  display:flex;
+  justify-content: space-evenly;
+}
+
+/* .header-options {
+  margin-left: 2em;
+} */
