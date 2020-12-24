@@ -7,7 +7,8 @@ const Experience = () => {
     <>
     <Header />
     <div className='experience-page fade-in'>
-    <h3>My name is Corbin March, I am a graduate from Turing school of technology and design. I'm a dedicated goal oriented team player. I have experience working both solo and in group projects ranging from 1-6 people using an agile, professional workflow with experience in rebasing. I have worked on both new and existing code bases and am able to adapt with pre-existing projects. Currently, I have experience working with the following technologies: </h3>
+    <h1 className="page-title">Experience</h1>
+    <h3>My name is Corbin March, I am a graduate from Turing school of technology and design. I'm a dedicated, goal oriented team player. I have experience working both solo and in group projects ranging from 1-6 people using an agile, professional workflow with experience in rebasing. I have worked on both new and existing code bases and am comfortable adapting with pre-existing projects. Currently, I have experience working with the following technologies: </h3>
     <ul className='exp-list'>
        <li>Javascript</li>
         <li>HTML</li>
@@ -22,7 +23,7 @@ const Experience = () => {
         <li>Redux</li>
     </ul>
     <h3 className='exp-text'>
-       I am excited to work in the field to learn new technologies and look forward to working with new teams on all manner of original, impactful projects!
+       I am excited to work in the field, learn new technologies and look forward to working with new teams on all manner of original, impactful projects!
     </h3>
     </div>
     </>

@@ -9,7 +9,7 @@ import { SocialIcon } from "react-social-icons";
 
 const HomePage = () => {
   return (
-    <div className="homepage">
+    <div className="homepage fade-in">
       <div className="left-homepage">
         <h1 className="main-title">Corbin March</h1>
         <img
@@ -27,7 +27,7 @@ const HomePage = () => {
           <h1 className="home-options">Contact</h1>
         </a>
         <a href="/experience"><h1 className="home-options">Experience</h1></a>
-        <h1 className="home-options">Projects</h1>
+        <a href='/projects'><h1 className="home-options">Projects</h1></a>
       </div>
     </div>
   );

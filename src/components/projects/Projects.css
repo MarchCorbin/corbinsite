@@ -1,0 +1,43 @@
+.projects-page {
+  margin-left:5em;
+}
+
+.option-link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.4em;
+  margin:0.6em;
+  transition:0.3s;
+}
+
+.option-link:hover {
+  font-size:1.5em;
+  transition:0.3s;
+}
+
+.single-project {
+  display:flex;
+  flex-direction: column;
+  margin:1em;
+  margin-bottom: 5em;
+}
+
+.project-image {
+  width:fit-content;
+}
+
+.project-title {
+  margin-bottom: 0.5em;
+}
+
+.page-title {
+  margin-top: 0.7em;
+  font-size: 65px;
+  margin-bottom: 0.7em;
+  text-decoration: underline;
+}
+
+
+
+
+

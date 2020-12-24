@@ -1,6 +1,7 @@
 .header {
   display:flex;
   justify-content: space-evenly;
+  height:2em;
 }
 
 .header-options:hover {
