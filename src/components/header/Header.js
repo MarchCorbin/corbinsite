@@ -9,7 +9,6 @@ const Header = ({location}) => {
   const projectTab = document.querySelector('.projects')
   const experienceTab = document.querySelector('.experience')
   const contactTab = document.querySelector('.contact')
-    console.log(location)
     if(location === 'projects') {
       projectTab.classList.add('selected')
       projectTab.parentNode.classList.add('selected')
@@ -28,10 +27,10 @@ const Header = ({location}) => {
   return (
     <>
     <nav className='header'>
-      <a style={{textDecoration: 'none', color: 'black'}} href='/'><h1 className='header-options'>Corbin March</h1></a>
-      <a style={{textDecoration: 'none', color: 'black'}} href='/projects'><h1 className='header-options projects'>Projects</h1></a>
-      <a style={{textDecoration: 'none', color: 'black'}} href='/experience'><h1 className='header-options experience'>Experience</h1></a>
-      <a style={{textDecoration: 'none', color: 'black'}} href='/contact'><h1 className='header-options contact'>Contact</h1></a>
+      <Link style={{textDecoration: 'none', color: 'black'}} to='/'><h1 className='header-options'>Corbin March</h1></Link>
+      <Link style={{textDecoration: 'none', color: 'black'}} to='/projects'><h1 className='header-options projects'>Projects</h1></Link>
+      <Link style={{textDecoration: 'none', color: 'black'}} to='/experience'><h1 className='header-options experience'>Experience</h1></Link>
+      <Link style={{textDecoration: 'none', color: 'black'}} to='/contact'><h1 className='header-options contact'>Contact</h1></Link>
     </nav>
     </>
   )
