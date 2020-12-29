@@ -1,8 +1,6 @@
-import React, { useState, useEffect } from 'react'
-import ReactDOM from "react-dom";
-import {Link, BrowserRouter, Route} from 'react-router-dom'
+import React from 'react'
 import './App.css';
-import Contact from '../contact/Contact'
+import {Link} from 'react-router-dom'
 import { SocialIcon } from "react-social-icons";
 
 
@@ -23,11 +21,11 @@ const HomePage = () => {
         </div>
       </div>
       <div className="right-homepage">
-        <a href="/contact">
+        <Link to="/contact">
           <h1 className="home-options">Contact</h1>
-        </a>
-        <a href="/experience"><h1 className="home-options">Experience</h1></a>
-        <a href='/projects'><h1 className="home-options">Projects</h1></a>
+        </Link>
+        <Link to="/experience"><h1 className="home-options">Experience</h1></Link>
+        <Link to='/projects'><h1 className="home-options">Projects</h1></Link>
       </div>
     </div>
   );

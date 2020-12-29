@@ -13,3 +13,8 @@
   font-size:1.5em;
   transition:0.5s;
 }
+
+.selected {
+  text-decoration: underline;
+  pointer-events: none;
+}

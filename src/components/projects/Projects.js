@@ -5,7 +5,7 @@ import './Projects.css'
 const Projects = () => {
   return(
   <>
-      <Header />
+      <Header location={'projects'} />
     <div className="projects-page fade-in">
       <h1 className="page-title">Projects</h1>
       <div className="single-project">

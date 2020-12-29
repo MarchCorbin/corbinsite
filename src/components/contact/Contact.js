@@ -5,7 +5,7 @@ import Header from '../header/Header'
 const Contact = () => {
   return (
     <>
-    <Header />
+    <Header location={'contact'} />
     <div className="contactinfo fade-in">
       <h1 className='page-title'>Contact</h1>
       <a className="contact-option" href="mail.google.com" target="_blank">
