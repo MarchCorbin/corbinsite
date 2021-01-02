@@ -10,6 +10,10 @@
   display: flex;
 }
 
+.mobile-layout {
+  display:none
+}
+
 .home-image {
   width:33vw;
 }
@@ -40,4 +44,47 @@ text-decoration: underline;
 text-decoration-color: gold;
 font-size:2.2em;
 transition:0.3s;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+.homepage {
+  background-image:url('/src/Assets/Corbinbwmain.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.home-image {
+  display:none;
+}
+
+.social-icons {
+  display:none;
+}
+
+.home-options {
+margin: 0.4em;
+text-decoration: underline;
+transition: 0.3s;
+color: mintcream;
+font-weight: 600;
+}
+
+.mobile-layout {
+ display: flex;
+ flex-flow: column;
+ margin-top: 40vh;
+ align-items:center;
+}
+
+.right-homepage {
+  display:none;
+}
+
+.socials-container {
+  justify-content: center;
+}
+
 }

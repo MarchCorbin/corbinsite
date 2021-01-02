@@ -2,13 +2,14 @@ import React from 'react'
 import './Contact.css'
 import Header from '../header/Header'
 
+
 const Contact = () => {
   return (
     <>
     <Header location={'contact'} />
     <div className="contactinfo fade-in">
       <h1 className='page-title'>Contact</h1>
-      <a className="contact-option" href="mail.google.com" target="_blank">
+      <a className="contact-option" href="http://mail.google.com/mail/" target="_blank">
         <h2>Email: MarchCorbin@gmail.com</h2>
       </a>
       <a className="contact-option" href="https://www.linkedin.com/in/marchcorbin/" target="_blank">

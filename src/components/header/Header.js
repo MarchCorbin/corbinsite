@@ -27,7 +27,7 @@ const Header = ({location}) => {
   return (
     <>
     <nav className='header'>
-      <Link style={{textDecoration: 'none', color: 'black'}} to='/'><h1 className='header-options'>Corbin March</h1></Link>
+      <Link style={{textDecoration: 'none', color: 'black'}} to='/'><h1 className='header-options main'>Corbin March</h1></Link>
       <Link style={{textDecoration: 'none', color: 'black'}} to='/projects'><h1 className='header-options projects'>Projects</h1></Link>
       <Link style={{textDecoration: 'none', color: 'black'}} to='/experience'><h1 className='header-options experience'>Experience</h1></Link>
       <Link style={{textDecoration: 'none', color: 'black'}} to='/contact'><h1 className='header-options contact'>Contact</h1></Link>
