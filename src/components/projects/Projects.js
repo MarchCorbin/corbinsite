@@ -28,7 +28,7 @@ const Projects = () => {
         <a className="option-link" href="https://whosthatpokemongame.netlify.app" target="_blank">Deployment</a>
         <a className="option-link" href='https://github.com/MarchCorbin/whos-that-pokemon' target="_blank">Repository</a>
         </section>
-        <img style={{width:'45em'}} className='project-image' src='https://user-images.githubusercontent.com/54864865/88721582-e49efe00-d0e3-11ea-969d-36e22fe05ff5.gif' alt='pokemon showcase' />
+        <img className='project-image' src='https://user-images.githubusercontent.com/54864865/88721582-e49efe00-d0e3-11ea-969d-36e22fe05ff5.gif' alt='pokemon showcase' />
       </div>
       <div className='single-project'>
         <h1 className="project-title">SpellBook</h1>
@@ -46,7 +46,7 @@ const Projects = () => {
           <a target="_blank" href='https://rancidtomatillos.netlify.app' className="option-link">Deployment</a>
           <a target="_blank" href='https://github.com/MarchCorbin/RancidTomatillios' className="option-link">Repository</a>
         </section>
-        <img style={{width:'45em'}} className="project-image" src='/assets/Logginginandcomment.gif' alt='tomatillos showcase' />
+        <img className="project-image" src='/assets/Logginginandcomment.gif' alt='tomatillos showcase' />
       </div>
     </div>
   </>

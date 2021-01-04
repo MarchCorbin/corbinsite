@@ -12,6 +12,32 @@
   font-size: 21px;
 }
 
+.experience-title {
+  font-size: 65px;
+  margin-bottom: 0.7em;
+  text-decoration: underline;
+}
+
 .exp-text {
   margin-top: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .experience-page {
+    display: flex;
+    flex-flow: column;
+    margin-top: 1em;
+    padding: 1.5em;
+    align-items: center;
+  }
+
+  .experience-title {
+    font-size: 65px;
+    margin-top:0em;
+    margin-bottom: 0.4em;
+    text-decoration: underline;
+  }
+
+
 }
