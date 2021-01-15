@@ -20,6 +20,14 @@ const Projects = () => {
         <img className='project-image' src='https://user-images.githubusercontent.com/61163743/98181671-0e28ac00-1ec1-11eb-8820-e90ed43ca4b6.gif' alt='career project showcase' />
       </div>
       <div className='single-project'>
+        <h1 className="project-title">Crate: Profile Feature Set</h1>
+        <p className='project-description'>Crate is a project built on a preexisting redux code base. Crate is a website used for a clothing subscription service. In the course of the project the front end team (3 devs) had to add a feature set that would allow a user to update their profile with an image, description and address. The user would also be able to check on the status of their previous and upcoming shipments.</p>
+        <section className="project-options">
+          <a className="option-link" href='https://github.com/MarchCorbin/crate' target="_blank">Repository</a>
+        </section>
+       <img className='project-image' src='https://camo.githubusercontent.com/97ae9aae851aeefefe7f86b8b055f1f38fa1aff82b67f3484a82df36d17d64f4/687474703a2f2f672e7265636f726469742e636f2f583934486152785371362e676966' alt='crate showcase' />
+      </div>
+      <div className='single-project'>
       <h1 className='project-title'>Who's That Pokemon?</h1>
       <p className='project-description'>
         Who 's That Pokemon is a game and pokedex built using the Pokemon API. Themed to look like an old school gameboy game, the application has a layout compatible with both phones and desktops. Built over the course of one week using React Hooks the game shows off a fluid and fast style, designed with a robust testing library using Jest. 

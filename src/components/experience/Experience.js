@@ -12,12 +12,14 @@ const Experience = () => {
     <ul className='exp-list'>
        <li>Javascript</li>
         <li>HTML</li>
-        <li>CSS</li>
+        <li>SASS</li>
         <li>JSON</li>
         <li>React</li>
         <li>React Hooks</li>
         <li>Vue.js</li>
+        <li>Bootstrap</li>
         <li>Jest</li>
+        <li>Express</li>
         <li>Node.js</li>
         <li>React Testing Library</li>
         <li>Redux</li>
