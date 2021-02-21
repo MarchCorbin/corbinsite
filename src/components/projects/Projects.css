@@ -13,7 +13,7 @@
 }
 
 .option-link:hover {
-  font-size:1.5em;
+  text-decoration: underline;
   transition:0.3s;
 }
 
@@ -26,6 +26,11 @@
 
 .project-image {
   width:40vw;
+}
+
+.project-options {
+  margin-bottom: 1em;
+  height: 1.5em;
 }
 
 .project-title {

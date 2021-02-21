@@ -2,6 +2,8 @@
   display:flex;
   justify-content: space-evenly;
   height:2em;
+  margin-top:0.8em;
+  align-items: baseline;
 }
 
 .header-options:hover {
@@ -12,6 +14,25 @@
 .header-options {
   font-size:1.5em;
   transition:0.5s;
+}
+
+.main {
+  font-size:2em;
+  transition:0.5s;
+  width: 20vw;
+  margin-left: 1.3em;
+}
+
+.main:hover {
+  font-size: 2.1em;
+  transition:0.5s;
+}
+
+.lower-tier {
+  display: flex;
+  width: 70vw;
+  justify-content: space-around;
+  align-items: baseline;
 }
 
 .selected {

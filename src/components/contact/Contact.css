@@ -13,13 +13,23 @@
   }
 }
 
-h2 {
-  margin: 0.4em;
-  text-decoration:underline;
-}
-
 .contact-option {
   color: black;
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-bottom:1.5em;
+}
+
+.contact-text {
+  display:flex;
+  text-decoration: underline;
+  align-items: center;
+}
+
+.contact-icons {
+  height:2em;
+  margin-right: 0.2em
 }
 
 .contactinfo {

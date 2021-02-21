@@ -6,6 +6,11 @@
   box-sizing: border-box
 }
 
+.main-title {
+    margin-top: 0.5em;
+    margin-bottom: 0.4em;
+      }
+
 .homepage {
   display: flex;
 }
