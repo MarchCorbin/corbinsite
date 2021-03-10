@@ -23,6 +23,7 @@ const Experience = () => {
         <li>Node.js</li>
         <li>React Testing Library</li>
         <li>Redux</li>
+        <li>React Native</li>
     </ul>
     <h3 className='exp-text'>
        I am excited to work in the field, learn new technologies and look forward to working with new teams on all manner of original, impactful projects!
