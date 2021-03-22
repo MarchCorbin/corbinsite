@@ -3,10 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from '../src/components/homepage/App';
 import reportWebVitals from './reportWebVitals';
+import Resume from './components/resume/Resume'
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <Resume />
   </React.StrictMode>,
   document.getElementById('root')
 );

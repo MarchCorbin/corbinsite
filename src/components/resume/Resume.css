@@ -1,0 +1,18 @@
+.resume-footer {
+  border: 1px solid black;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background:white;
+}
+
+.resume-text {
+  text-decoration: none;
+  color:black;
+}
+
+.resume-link {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}

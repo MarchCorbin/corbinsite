@@ -2,6 +2,7 @@ import React from 'react'
 import './Contact.css'
 import Header from '../header/Header'
 import { SocialIcon } from "react-social-icons";
+import Resume from '../resume/Resume'
 
 
 const Contact = () => {
@@ -10,7 +11,7 @@ const Contact = () => {
     <Header location={'contact'} />
     <div className="contactinfo fade-in">
       <h1 className='page-title'>Contact</h1>
-      <a className="contact-option" href="http://mail.google.com/mail/" target="_blank">
+      <a className="contact-option" href="https://mail.google.com/mail/?view=cm&fs=1&to=marchcorbin@gmail.com" target="_blank">
         <h2 className='contact-text'><img className='contact-icons' src='/assets/emailicon.png' /> MarchCorbin@gmail.com</h2>
       </a>
       <a className="contact-option" href="https://www.linkedin.com/in/marchcorbin/" target="_blank">
