@@ -9,7 +9,7 @@ const Projects = () => {
     <div className="projects-page fade-in">
       <h1 className="page-title">Projects</h1>
       <div className="single-project">
-        <h1 className="project-title">Done With It</h1>
+        <h1 className="project-title">Done With It (React Native)</h1>
         <p className="project-description">Done With It is a consumer selling app. Users are able to create an account, make listings and send messages for sale inquiries. The app is made with a clean and efficient phone interface that is easy to understand and navigate. The app is built with React native and uses many popular technologies such as SecureStore, Yup and Formik. It also features persistent login after a user leaves and allows users to upload their own pictures with detailed descriptions.</p>
         <section className="project-options">
           <a className="option-link" href='https://github.com/MarchCorbin/SellingAppNative' target="_blank">Code</a>
