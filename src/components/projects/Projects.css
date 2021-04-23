@@ -35,6 +35,8 @@
 
 .project-title {
   margin-bottom: 0.5em;
+  align-items: center;
+  align-self: center;
 }
 
 .page-title {
@@ -42,6 +44,30 @@
   font-size: 65px;
   margin-bottom: 0.7em;
   text-decoration: underline;
+}
+
+.project-showcase {
+  flex: 1;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-image {
+  margin-right:30px;
+  border-radius: 30px;
+  height: 30em;
+  transition: 2s;
+}
+
+.showcase-image:hover {
+  height:35em;
+  transition: height 2s;
+}
+
+.project-description {
+  align-self: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 600px) {

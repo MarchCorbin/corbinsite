@@ -9,6 +9,23 @@ const Projects = () => {
     <div className="projects-page fade-in">
       <h1 className="page-title">Projects</h1>
       <div className="single-project">
+        <h1 className="project-title">Done With It</h1>
+        <p className="project-description">Done With It is a consumer selling app. Users are able to create an account, make listings and send messages for sale inquiries. The app is made with a clean and efficient phone interface that is easy to understand and navigate. The app is built with React native and uses many popular technologies such as SecureStore, Yup and Formik. It also features persistent login after a user leaves and allows users to upload their own pictures with detailed descriptions.</p>
+        <section className="project-options">
+          <a className="option-link" href='https://github.com/MarchCorbin/SellingAppNative' target="_blank">Code</a>
+        </section>
+        <section className="project-showcase">
+          <img className="showcase-image"  src="https://user-images.githubusercontent.com/54864865/115912299-5d8d7500-a42c-11eb-8f5f-027b1a5464a0.gif" alt="logging in" />
+          <img className="showcase-image" src="https://user-images.githubusercontent.com/54864865/115912543-b0ffc300-a42c-11eb-874e-18e5ba7c966e.gif" alt="messaging" />
+          <img className="showcase-image" src="https://user-images.githubusercontent.com/54864865/115912654-d5f43600-a42c-11eb-9aa9-f978ed4c4775.gif" alt="checking messages" />
+          <img className="showcase-image"src="https://user-images.githubusercontent.com/54864865/115912783-00de8a00-a42d-11eb-8319-4b68b1dfc000.gif" alt="Add a listing" />
+          <img className="showcase-image"src="https://user-images.githubusercontent.com/54864865/115912900-27042a00-a42d-11eb-8f66-8c71daf0db16.gif" alt="persistent login" />
+        </section>
+      </div>
+
+
+
+      <div className="single-project">
         <h1 className="project-title">Career Day (React Hooks)</h1>
         <p className='project-description'>
           Career Day is an interactive childrens career finding app. Built with React Hooks using a custom made API, The application is full of art and color with a smooth mobile first interface that is easy to understand and fun to interact with. Each career comes with its own custom artwork, descriptions and embedded videos.
