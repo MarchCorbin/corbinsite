@@ -34,7 +34,7 @@ const Projects = () => {
         <a className="option-link" href="http://career-day-fe.herokuapp.com" target="_blank">Website</a>
         <a className="option-link" href='https://github.com/Career-Day/career-day-fe' target="_blank">Code</a>
         </section>
-        <img style={{height: 590, width:300}} className='project-image' src='https://user-images.githubusercontent.com/61163743/98181671-0e28ac00-1ec1-11eb-8820-e90ed43ca4b6.gif' alt='career project showcase' />
+        <img style={{height: 812, width:375}} className='project-image' src='https://user-images.githubusercontent.com/61163743/98181671-0e28ac00-1ec1-11eb-8820-e90ed43ca4b6.gif' alt='career project showcase' />
       </div>
       <div className='single-project'>
         <h1 className="project-title">Crate: Profile Feature Set (Redux)</h1>
