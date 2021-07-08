@@ -62,7 +62,7 @@ const Projects = () => {
           <a target="_blank" href='https://hpspellbook.netlify.app' className='option-link'>Website</a>
           <a target="_blank" href='https://github.com/MarchCorbin/spellbook' className='option-link'>Code</a>
         </section>
-        <img className="project-image" src='/Assets/create-spell.gif' alt='spellbook showcase' />
+        <img className="project-image" src='https://github.com/MarchCorbin/spellbook/raw/master/src/srcassets/create-spell.gif' alt='spellbook showcase' />
       </div>
       <div className='single-project'>
         <h1 className="project-title">Rancid Tomatillos (React)</h1>
