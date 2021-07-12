@@ -1,3 +1,13 @@
+.bold-text {
+  font-weight:800;
+  display: inline;
+}
+
+.white-space {
+  border:none;
+  height:1em;
+}
+
 .projects-page {
   display: flex;
   flex-flow: column;
