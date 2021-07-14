@@ -69,7 +69,7 @@ const Projects = () => {
       <div className='single-project'>
       <h1 className='project-title'>Who's That Pokemon? (React Hooks)</h1>
       <p className='project-description'>
-        Who 's That Pokemon is a game and pokedex built using with an effiecient old school styled interface.
+        Who 's That Pokemon is a game and Pokedex built with an effiecient old school gameboy styled interface.
         <hr className="white-space"/>
         <h3 className='bold-text'>Features: </h3>
          Themed to look like an old school gameboy game, the application has a layout compatible with both phones and desktops. A user can play Who's that pokemon or switch over to an interactive pokedex and save favorites.
