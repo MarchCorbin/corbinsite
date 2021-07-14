@@ -69,7 +69,14 @@ const Projects = () => {
       <div className='single-project'>
       <h1 className='project-title'>Who's That Pokemon? (React Hooks)</h1>
       <p className='project-description'>
-        Who 's That Pokemon is a game and pokedex built using the Pokemon API. Themed to look like an old school gameboy game, the application has a layout compatible with both phones and desktops. Built over the course of one week using React Hooks the game shows off a fluid and fast style, designed with a robust testing library using Jest. 
+        Who 's That Pokemon is a game and pokedex built using with an effiecient old school styled interface.
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Features: </h3>
+         Themed to look like an old school gameboy game, the application has a layout compatible with both phones and desktops. A user can play Who's that pokemon or switch over to an interactive pokedex and save favorites.
+         <hr className="white-space"/>
+         <h3 className='bold-text'>Technologies Used: </h3>
+          Built over the course of one week using <h4 className='bold-text'>React Hooks</h4>, and <h4 className='bold-text'>SASS</h4> styling the game utilizes <h4 className='bold-text'>asynchronous design</h4>, <h4 className='bold-text'>RESTful</h4> architecture from the public Pokemon <h4 className='bold-text'>API</h4> designed with a robust testing suite using <h4 className='bold-text'>Jest</h4>, <h4 className='bold-text'>Mocha/Chai</h4>. 
+        
       </p>
       <section className="project-options">
         <a className="option-link" href="https://whosthatpokemongame.netlify.app" target="_blank">Website</a>
@@ -79,7 +86,13 @@ const Projects = () => {
       </div>
       <div className='single-project'>
         <h1 className="project-title">SpellBook (Vue.js)</h1>
-        <p className='project-description'>Harry Potters' Spellbook is an application built using Vue.js over the course of one week. Using the Harry Potter API combined with customized art designed for the app, a user can craft a custom spell to then add to the abundant existing lore potions and magic cantations. After adding their own spell they can then organize and filter through the various spells using the various spell types in the Harry Potter universe.</p>
+        <p className='project-description'>Harry Potters' Spellbook is an asynchronous spell creator and Index of in Potterverse lore spells that you can then add to.
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Features: </h3>
+         Spellbook creates a dynamic index that allows user to filter through and find specific spells and spelltypes throughout the Potterverse. Users can then get creative and Create their own Spell to add to the Index. Using a stylized and fun user interface users can add types, effects and name their own spells to then submit to the SpellBook.
+         <hr className="white-space"/>
+          <h3 className='bold-text'>Technologies Used: </h3>
+          Built with <h4 className='bold-text'>Vue.js</h4> over the course of one week. Using the public Harry Potter <h4 className='bold-text'>API</h4>, combined with <h4 className='bold-text'>custom art</h4> designed for the app and a full testing suite using <h4 className='bold-text'>Jest</h4>.</p>
         <section className="project-options">
           <a target="_blank" href='https://hpspellbook.netlify.app' className='option-link'>Website</a>
           <a target="_blank" href='https://github.com/MarchCorbin/spellbook' className='option-link'>Code</a>
@@ -88,7 +101,12 @@ const Projects = () => {
       </div>
       <div className='single-project'>
         <h1 className="project-title">Rancid Tomatillos (React)</h1>
-        <p className='project-description'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with React.js. Using an external movie API with preexisting users, the app allows a user to sign in to their personal account, create a list of favorite films to return to later and leave comments for individual movies.</p>
+        <p className='project-description'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with ReactJS.
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Features: </h3>The Application features the newest theatrical films combined with some old classics. The app was designed to be visually appealing, making use of much of the artwork provided from each film but also highly readable and easy to use. A user can go from film to film and read a synopsis, actors list, budget, theatrical revenue and runtime. After a user logs in they can individually rate movies using a 1-10 star rating, set favorites to view later and create comments in each film for other users to see.
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Technologies Used: </h3>
+         Created with <h4 className='bold-text'>ReactJS</h4>. Using an external movie <h4 className='bold-text'>API</h4> with preexisting users, the app is designed with <h4 className='bold-text'>asynchronous API calls</h4> that allows users to update a movies user and average rating allowing viewers to add their own comments for other users to view. The testing suite is written using <h4 className='bold-text'>Mocha/Chai</h4>.</p>
         <section className="project-options">
           <a target="_blank" href='https://rancidtomatillos.netlify.app' className="option-link">Website</a>
           <a target="_blank" href='https://github.com/MarchCorbin/RancidTomatillios' className="option-link">Code</a>
