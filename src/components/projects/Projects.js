@@ -10,7 +10,9 @@ const Projects = () => {
       <h1 className="page-title">Projects</h1>
       <div className="single-project">
         <h1 className="project-title">Done With It (React Native)</h1>
-        <p className="project-description">Done With It is a consumer selling app prototype. <br/>
+        <p className="project-description">
+          
+          <p className='pitch'>Done With It is a consumer selling app prototype.</p> <br/>
 
         <hr className="white-space"/>
 
@@ -35,7 +37,7 @@ const Projects = () => {
       <div className="single-project">
         <h1 className="project-title">Career Day (React Hooks)</h1>
         <p className='project-description'>
-          Career Day is an interactive childrens career finding app.
+          <p className='pitch'>Career Day is an interactive childrens career finding app.</p>
           <hr className="white-space"/>
           <h3 className="bold-text">Features: </h3>
            Built using a custom made API, The application is full of art and color with a smooth mobile first interface that is easy to understand and fun to interact with. Each career comes with its own custom artwork, descriptions and embedded videos.
@@ -52,7 +54,8 @@ const Projects = () => {
       </div>
       <div className='single-project'>
         <h1 className="project-title">Crate: Profile Feature Set (Redux)</h1>
-        <p className='project-description'>Crate is a pre-existing clothing subscription website needing a feature set that allows users to create, update and customize their own profile according to their needs.
+        <p className='project-description'>
+          <p className='pitch'>Crate is a pre-existing clothing subscription website needing a feature set that allows users to create, update and customize their own profile according to their needs.</p>
         <hr className="white-space"/>
         <h3 className='bold-text'>Features: </h3>
          In the course of the project the front end team (3 devs) added a feature set that would allow a user to create and update their profile with an image, personal description and address. The user can also check on the status of their previous, current and pending orders.
@@ -69,7 +72,7 @@ const Projects = () => {
       <div className='single-project'>
       <h1 className='project-title'>Who's That Pokemon? (React Hooks)</h1>
       <p className='project-description'>
-        Who 's That Pokemon is a game and Pokedex built with an effiecient old school gameboy styled interface.
+        <p className='pitch'>Who 's That Pokemon is a game and Pokedex built with an effiecient old school gameboy styled interface.</p>
         <hr className="white-space"/>
         <h3 className='bold-text'>Features: </h3>
          Themed to look like an old school gameboy game, the application has a layout compatible with both phones and desktops. A user can play Who's that pokemon or switch over to an interactive pokedex and save favorites.
@@ -86,7 +89,8 @@ const Projects = () => {
       </div>
       <div className='single-project'>
         <h1 className="project-title">SpellBook (Vue.js)</h1>
-        <p className='project-description'>Harry Potters' Spellbook is an asynchronous spell creator and Index of in Potterverse lore spells that you can then add to.
+        <p className='project-description'>
+          <p className='pitch'>Harry Potters' Spellbook is an interactive spell creator and Index of the Potterverse spells and cantations that you can contribute to.</p>
         <hr className="white-space"/>
         <h3 className='bold-text'>Features: </h3>
          Spellbook creates a dynamic index that allows user to filter through and find specific spells and spelltypes throughout the Potterverse. Users can then get creative and Create their own Spell to add to the Index. Using a stylized and fun user interface users can add types, effects and name their own spells to then submit to the SpellBook.
@@ -101,12 +105,14 @@ const Projects = () => {
       </div>
       <div className='single-project'>
         <h1 className="project-title">Rancid Tomatillos (React)</h1>
-        <p className='project-description'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with ReactJS.
+        <p className='project-description'>
+          <p className='pitch'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with ReactJS.</p>
         <hr className="white-space"/>
         <h3 className='bold-text'>Features: </h3>The Application features the newest theatrical films combined with some old classics. The app was designed to be visually appealing, making use of much of the artwork provided from each film but also highly readable and easy to use. A user can go from film to film and read a synopsis, actors list, budget, theatrical revenue and runtime. After a user logs in they can individually rate movies using a 1-10 star rating, set favorites to view later and create comments in each film for other users to see.
         <hr className="white-space"/>
         <h3 className='bold-text'>Technologies Used: </h3>
-         Created with <h4 className='bold-text'>ReactJS</h4>. Using an external movie <h4 className='bold-text'>API</h4> with preexisting users, the app is designed with <h4 className='bold-text'>asynchronous API calls</h4> that allows users to update a movies user and average rating allowing viewers to add their own comments for other users to view. The testing suite is written using <h4 className='bold-text'>Mocha/Chai</h4>.</p>
+         Created with <h4 className='bold-text'>ReactJS</h4>. Using an external movie <h4 className='bold-text'>API</h4> with preexisting users, the app is designed with <h4 className='bold-text'>asynchronous API calls</h4> that allows users to update a movies user and average rating allowing viewers to add their own comments for other users to view.
+         Styling is accomplished with <h4 className='bold-text'>CSS</h4> and the testing suite is written using <h4 className='bold-text'>Mocha/Chai</h4>.</p>
         <section className="project-options">
           <a target="_blank" href='https://rancidtomatillos.netlify.app' className="option-link">Website</a>
           <a target="_blank" href='https://github.com/MarchCorbin/RancidTomatillios' className="option-link">Code</a>
