@@ -52,6 +52,25 @@ const Projects = () => {
         </section>
         <img style={{height: 812, width:375}} className='project-image' src='https://user-images.githubusercontent.com/61163743/98181671-0e28ac00-1ec1-11eb-8820-e90ed43ca4b6.gif' alt='career project showcase' />
       </div>
+
+      <div className='single-project'>
+        <h1 className="project-title">Rancid Tomatillos (React)</h1>
+        <p className='project-description'>
+          <p className='pitch'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with ReactJS.</p>
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Features: </h3>The Application features the newest theatrical films combined with some old classics. The app was designed to be visually appealing, making use of much of the artwork provided from each film but also highly readable and easy to use. A user can go from film to film and read a synopsis, actors list, budget, theatrical revenue and runtime. After a user logs in they can individually rate movies using a 1-10 star rating, set favorites to view later and create comments in each film for other users to see.
+        <hr className="white-space"/>
+        <h3 className='bold-text'>Technologies Used: </h3>
+         Created with <h4 className='bold-text'>ReactJS</h4>. Using an external movie <h4 className='bold-text'>API</h4> with preexisting users, the app is designed with <h4 className='bold-text'>asynchronous API calls</h4> that allows users to update a movies user and average rating allowing viewers to add their own comments for other users to view.
+         Styling is accomplished with <h4 className='bold-text'>CSS</h4> and the testing suite is written using <h4 className='bold-text'>Mocha/Chai</h4>.</p>
+        <section className="project-options">
+          <a target="_blank" href='https://rancidtomatillos.netlify.app' className="option-link">Website</a>
+          <a target="_blank" href='https://github.com/MarchCorbin/RancidTomatillios' className="option-link">Code</a>
+        </section>
+        <img className="project-image" src='/assets/Logginginandcomment.gif' alt='tomatillos showcase' />
+      </div>
+
+
       <div className='single-project'>
         <h1 className="project-title">Crate: Profile Feature Set (Redux)</h1>
         <p className='project-description'>
@@ -103,22 +122,7 @@ const Projects = () => {
         </section>
         <img className="project-image" src='https://github.com/MarchCorbin/spellbook/raw/master/src/srcassets/create-spell.gif' alt='spellbook showcase' />
       </div>
-      <div className='single-project'>
-        <h1 className="project-title">Rancid Tomatillos (React)</h1>
-        <p className='project-description'>
-          <p className='pitch'>Rancid Tomatillos is a movie presentation application built over the course of two weeks with ReactJS.</p>
-        <hr className="white-space"/>
-        <h3 className='bold-text'>Features: </h3>The Application features the newest theatrical films combined with some old classics. The app was designed to be visually appealing, making use of much of the artwork provided from each film but also highly readable and easy to use. A user can go from film to film and read a synopsis, actors list, budget, theatrical revenue and runtime. After a user logs in they can individually rate movies using a 1-10 star rating, set favorites to view later and create comments in each film for other users to see.
-        <hr className="white-space"/>
-        <h3 className='bold-text'>Technologies Used: </h3>
-         Created with <h4 className='bold-text'>ReactJS</h4>. Using an external movie <h4 className='bold-text'>API</h4> with preexisting users, the app is designed with <h4 className='bold-text'>asynchronous API calls</h4> that allows users to update a movies user and average rating allowing viewers to add their own comments for other users to view.
-         Styling is accomplished with <h4 className='bold-text'>CSS</h4> and the testing suite is written using <h4 className='bold-text'>Mocha/Chai</h4>.</p>
-        <section className="project-options">
-          <a target="_blank" href='https://rancidtomatillos.netlify.app' className="option-link">Website</a>
-          <a target="_blank" href='https://github.com/MarchCorbin/RancidTomatillios' className="option-link">Code</a>
-        </section>
-        <img className="project-image" src='/assets/Logginginandcomment.gif' alt='tomatillos showcase' />
-      </div>
+      
     </div>
   </>
   )
